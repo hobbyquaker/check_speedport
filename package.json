@@ -1,0 +1,30 @@
+{
+  "name": "check_speedport",
+  "version": "1.0.0",
+  "description": "Nagios/Icinga Plugin to Check DSL Status of Speedport Routers",
+  "main": "index.js",
+  "scripts": {
+    "test": "camo-purge ; xo --space 4"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "vdsl",
+    "dsl",
+    "router",
+    "speedport",
+    "telekom",
+    "nagios",
+    "icinga"
+  ],
+  "author": "Sebastian Raff <hq@ccu.io> https://github.com/hobbyquaker/check_speedport",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "camo-purge": "latest",
+    "xo": "latest"
+  }
+}
