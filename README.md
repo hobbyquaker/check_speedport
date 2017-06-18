@@ -21,7 +21,7 @@ Tested with Speedport 921v, could/should work with other Speedports too.
 
 ``` 
 define command {
-    command_name	        check_speedport
+    command_name            check_speedport
     command_line            /usr/local/bin/check_speedport
 }
 
