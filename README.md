@@ -39,6 +39,16 @@ define service {
 }
 ```
 
+## Todo
+
+* Performance data
+* Configure host via command line option
+* Configure bandwidth tresholds via command line options
+* Configure verbosity via command line option
+
+Pull Requests Welcome! :-)
+
+
 ## License
 
 MIT © [Sebastian Raff](https://github.com/hobbyquaker)
