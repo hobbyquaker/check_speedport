@@ -12,6 +12,10 @@
   "bin": {
     "check_speedport": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hobbyquaker/check_speedport.git"
+  },
   "keywords": [
     "vdsl",
     "dsl",
