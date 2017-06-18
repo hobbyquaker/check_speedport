@@ -1,6 +1,6 @@
 {
   "name": "check_speedport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nagios/Icinga Plugin to Check DSL Status of Speedport Routers",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,9 @@
   },
   "engines": {
     "node": ">=6.0.0"
+  },
+  "bin": {
+    "check_speedport": "./index.js"
   },
   "keywords": [
     "vdsl",

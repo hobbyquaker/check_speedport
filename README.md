@@ -21,8 +21,8 @@ Tested with Speedport 921v, could/should work with other Speedports too.
 
 ``` 
 define command {
-	command_name	        check_speedport
-	command_line            /usr/local/lib/node_modules/check_speedport/index.js
+    command_name	        check_speedport
+    command_line            /usr/local/bin/check_speedport
 }
 
 define host {
